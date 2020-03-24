@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "Distraction-free Stack",
+  "version": "0.5",
+
+  "description": "Removes the hot network questions section from stackoverflow.com and other stackexchange sites",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://stackoverflow.com/*",
+        "*://*.stackoverflow.com/*",
+        "*://*.stackexchange.com/*"],
+      "js": ["stackblocker.js"]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": {
+        "48": "icons/border-48.png"
+    },
+    "default_popup": "options/options.html",
+    "default_title": "SO Block Options"
+  },
+
+
+  "permissions": ["storage"],
+
+  "applications": {
+    "gecko": {
+      "id": "thomsonjack41@gmail.com"
+    }
+  }
+
+}
