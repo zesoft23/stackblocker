@@ -8,11 +8,7 @@ You can currently only install this as a local add-on! Hopefully coming to the F
 
 ### Prerequisites
 
-You need a recent version of Firefox or Chrome to run this plugin.
-
-```
-Firefox 
-```
+You need a recent version of `Firefox` to run this plugin.
 
 ### Installing
 
@@ -23,7 +19,7 @@ Firefox
 
 ## Built With
 
-* [Webextensions](htthttps://animalcrossing.fandom.com/wiki/Stitchesps://wiki.mozilla.org/WebExtensions) - The web framework used
+* [Webextensions](https://wiki.mozilla.org/WebExtensions) - The web framework used
 
 ## Contributing
 
@@ -37,3 +33,9 @@ I welcome PR's. I'm a javascript newbie so any stylistic corrections are awesome
 
 This project is licensed under the GNU General Public License - see the [LICENSE.md](LICENSE.md) file for details
 
+## To-do
+
+1. Integrate with Chrome and Opera
+2. Make more javascript savvy
+3. Add better logic to the check buttons
+4. Make a dedicated preferences page
