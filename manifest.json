@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Distraction-free Stack",
+  "name": "Stackblocker",
   "version": "1.0",
 
-  "description": "Removes the hot network questions section from stackoverflow.com and other stackexchange sites",
+  "description": "This blocks the individual elements of the sidebar on Stack Overflow (and adjacent sites)",
 
   "icons": {
     "48": "icons/border-48.png"
