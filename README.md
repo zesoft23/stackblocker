@@ -4,13 +4,14 @@ This add-on blocks the sidebars on stackoverflow and stackexchange sites. Enjoy 
 
 ## Getting Started
 
-You can currently only install this as a local add-on! Hopefully coming to the Firefox + Chrome stores soon.
+You can install the plugin from the Firefox add-on [store](https://addons.mozilla.org/en-US/firefox/addon/stackblocker/)!
+Hopefully coming to Chrome/Opera stores soon.
 
 ### Prerequisites
 
 You need a recent version of `Firefox` to run this plugin.
 
-### Installing
+### Installing a dev version
 
 1. Clone this repo locally
 2. Open about:debugging in Firefox
