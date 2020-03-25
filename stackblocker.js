@@ -1,8 +1,8 @@
 function onError(error) {
     console.log(`Error: ${error}`);
-  }
-  
-  function onGot(item) {
+}
+
+function onGot(item) {
 
     console.log(item);
 
@@ -43,7 +43,7 @@ function onError(error) {
     }
 
     var related = document.querySelectorAll('.sidebar-related');
-    if (item.storedValues.relatedstored && related.length){
+    if (item.storedValues.relatedstored && related.length) {
         console.log("related!");
         related[0].parentNode.removeChild(related[0]);
     }
@@ -60,7 +60,7 @@ function onError(error) {
         right.parentNode.removeChild(right);
     }
 
-  }
-  
-  let getting = browser.storage.sync.get("storedValues");
-  getting.then(onGot, onError);
+}
+
+let getting = browser.storage.sync.get("storedValues");
+getting.then(onGot, onError);
